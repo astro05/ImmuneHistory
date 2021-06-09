@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import org.controlsfx.control.PrefixSelectionComboBox?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="immunehistory.statics.login_registration.Test_FXMLController">
+   <children>
+      <ComboBox layoutX="95.0" layoutY="102.0" prefWidth="150.0" />
+      <PrefixSelectionComboBox layoutX="392.0" layoutY="77.0" />
+      <JFXComboBox layoutX="310.0" layoutY="159.0" />
+   </children>
+</AnchorPane>

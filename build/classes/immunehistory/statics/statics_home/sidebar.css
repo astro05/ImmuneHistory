@@ -1,0 +1,92 @@
+
+
+.sidebar{
+    -fx-background-color:  #ffde6b;
+}
+
+.sidebar .button{
+    -fx-background-color: none;
+    -fx-text-fill:  #4E4F52;
+    -fx-font-weight:700;
+    -fx-font-size:16px;
+    -fx-font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    -fx-border-width: 0px 0px 0px 7px;
+}
+
+.sidebar .button:hover{
+    -fx-border-color: #EA5444;
+    -fx-border-width: 0px 0px 0px 7px;
+    -fx-border-radius: 0px;
+    -fx-text-fill: #EA5444;
+}
+
+#home{
+    -fx-background-image: url("../../../images/home.png");
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 55% 30%;
+}
+
+#home:hover{
+    -fx-background-image: url("../../../images/homeRed.png");
+}
+
+.home-active{
+    -fx-background-image: url("../../../images/homeRed.png");
+}
+
+#setting{
+    -fx-background-image: url("../../../images/settings.png");
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 55% 30%;
+}
+
+#setting:hover{
+    -fx-background-image: url("../../../images/settingsRed.png");
+}
+
+#drugstatics{
+    -fx-background-image: url("../../../images/drugstatics.png");
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 55% 30%;
+}
+
+#drugstatics:hover{
+    -fx-background-image: url("../../../images/drugstaticsRed.png");
+}
+
+
+#drug{
+    -fx-background-image: url("../../../images/drug.png");
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 55% 30%;
+}
+
+#drug:hover{
+    -fx-background-image: url("../../../images/drugRed.png");
+}
+
+#disease{
+    -fx-background-image: url("../../../images/disease.png");
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 55% 30%;
+}
+
+#disease:hover, #disease:active{
+    -fx-background-image: url("../../../images/diseaseRed.png");
+}
+
+#treatmentstatics{
+    -fx-background-image: url("../../../images/treatmentstatics.png");
+    -fx-background-size: 40px 40px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: 55% 30%;
+}
+
+#treatmentstatics:hover, #treatmentstatics:active{
+    -fx-background-image: url("../../../images/treatmentstaticsRed.png");
+}

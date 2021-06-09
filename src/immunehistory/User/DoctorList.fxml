@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="58.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.User.DoctorListController">
+   <children>
+      <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icons8_medical_doctor_64px_1.png" />
+         </image>
+         <HBox.margin>
+            <Insets left="5.0" />
+         </HBox.margin>
+      </ImageView>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="24.0">
+         <children>
+            <Label fx:id="serial_no" text="01" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="57.0" layoutY="10.0" prefHeight="58.0" prefWidth="119.0">
+         <children>
+            <Label fx:id="doctor_name" prefHeight="25.0" prefWidth="105.0" text="Aminur Rahman" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="27.0">
+         <children>
+            <Label fx:id="doctor_age" contentDisplay="CENTER" prefHeight="17.0" prefWidth="15.0" text="20" />
+         </children>
+         <HBox.margin>
+            <Insets left="2.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="80.0">
+         <children>
+            <Label fx:id="degree" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="104.0" text="Phd,MBBS" />
+         </children>
+         <HBox.margin>
+            <Insets left="5.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="273.0" layoutY="10.0" prefHeight="58.0" prefWidth="115.0">
+         <children>
+            <Label fx:id="category" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="104.0" text="General Medicine" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="107.0">
+         <children>
+            <Label fx:id="hospital" text="GreenLife Hospital" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="112.0">
+         <children>
+            <Label fx:id="doc_email" text="aminur@gmail.com" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="495.0" layoutY="10.0" prefHeight="58.0" prefWidth="112.0">
+         <children>
+            <Label fx:id="doctor_phone" text="01521277331" />
+         </children>
+      </VBox>
+   </children>
+</HBox>

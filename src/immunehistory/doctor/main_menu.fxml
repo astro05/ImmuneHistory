@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.doctor.Main_menuController">
+   <children>
+      <Button layoutX="362.0" layoutY="82.0" mnemonicParsing="false" onMouseClicked="#show_user_history" prefHeight="67.0" prefWidth="177.0" text="User history" />
+      <Button layoutX="362.0" layoutY="160.0" mnemonicParsing="false" onMouseClicked="#write_prescription" prefHeight="67.0" prefWidth="177.0" text="Write Prescription" />
+      <Button layoutX="362.0" layoutY="236.0" mnemonicParsing="false" onMouseClicked="#edit_profile" prefHeight="67.0" prefWidth="177.0" text="Edit Profile" />
+      <Button layoutX="14.0" layoutY="561.0" mnemonicParsing="false" onMouseClicked="#back" text="back" />
+      <Button layoutX="362.0" layoutY="314.0" mnemonicParsing="false" onMouseClicked="#appointments" prefHeight="67.0" prefWidth="177.0" text="Appointments" />
+      <Button fx:id="medicine_feedback" layoutX="362.0" layoutY="392.0" mnemonicParsing="false" onMouseClicked="#medicine_success_feedback" prefHeight="67.0" prefWidth="177.0" text="Medicine Success Feedback" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="statics_otp_id" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #ffde6b;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.statics.login_registration.Statics_otpController">
+   <children>
+      <FontAwesomeIconView fill="#4d4141" glyphName="HOME" layoutX="50.0" layoutY="64.0" onMouseClicked="#statics_otp_home_id" size="40" wrappingWidth="40.0" />
+      <Label layoutX="304.0" layoutY="22.0" style="-fx-font-family: Rubik;" text="Immune History">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               
+            </Lighting>
+         </effect>
+      </Label>
+      <Label layoutX="236.0" layoutY="128.0" text="Your OTP Will Be Sent To Your Email ID">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <JFXPasswordField fx:id="statics_otp_field" alignment="CENTER" layoutX="379.0" layoutY="284.0" promptText="Enter your OTP" />
+      <Label fx:id="lblOtpError" alignment="CENTER" layoutX="328.0" layoutY="299.0" prefHeight="21.0" prefWidth="235.0" textFill="RED" />
+      <Button fx:id="statics_otpSubmit_btn" layoutX="418.0" layoutY="391.0" mnemonicParsing="false" onAction="#statics_otp_submitOnAction" style="-fx-background-color: #f1ff5a;" text="Submit">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <JFXTextField fx:id="hide" alignment="CENTER" layoutX="104.0" layoutY="482.0" visible="false" />
+      <JFXTextField fx:id="emailtest" alignment="CENTER" editable="false" layoutX="281.0" layoutY="189.0" prefHeight="41.0" prefWidth="338.0" style="-fx-border-color: #ffde6b;">
+         <font>
+            <Font size="20.0" />
+         </font></JFXTextField>
+      <Label fx:id="lblotpNotMatched" alignment="CENTER" layoutX="353.0" layoutY="334.0" prefHeight="21.0" prefWidth="169.0" textFill="RED">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

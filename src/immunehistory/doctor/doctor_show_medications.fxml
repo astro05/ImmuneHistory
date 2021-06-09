@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="2000.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.doctor.Doctor_show_medicationsController">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="2000.0" prefWidth="1400.0">
+         <children>
+            <JFXListView fx:id="col1" layoutX="100.0" layoutY="68.0" prefWidth="154.0" />
+            <JFXListView fx:id="col2" layoutX="254.0" layoutY="68.0" prefWidth="150.0" />
+            <JFXListView fx:id="col3" layoutX="403.0" layoutY="68.0" prefWidth="297.0" />
+            <JFXListView fx:id="col4" layoutX="700.0" layoutY="68.0" />
+            <JFXListView fx:id="col5" layoutX="900.0" layoutY="68.0" />
+            <JFXListView fx:id="col6" layoutX="1100.0" layoutY="68.0" />
+            <JFXListView fx:id="col7" layoutX="100.0" layoutY="533.0" />
+            <JFXListView fx:id="col8" layoutX="300.0" layoutY="533.0" />
+            <JFXListView fx:id="col9" layoutX="500.0" layoutY="533.0" />
+            <JFXListView fx:id="col11" layoutX="700.0" layoutY="533.0" />
+            <JFXListView fx:id="col12" layoutX="900.0" layoutY="533.0" />
+            <JFXListView fx:id="col13" layoutX="1100.0" layoutY="533.0" />
+            <Button layoutX="100.0" layoutY="954.0" mnemonicParsing="false" onMouseClicked="#back" text="Back" />
+            <Label layoutX="149.0" layoutY="51.0" text="Symptoms" />
+            <Label layoutX="302.0" layoutY="51.0" text="Test name" />
+            <Label layoutX="488.0" layoutY="51.0" text="Medicine Generic Name" />
+            <Label layoutX="766.0" layoutY="51.0" text="Dosage" />
+            <Label layoutX="938.0" layoutY="51.0" text="Dosage Duration (days)" />
+            <Label layoutX="1163.0" layoutY="51.0" text="Remarks" />
+            <Label layoutX="177.0" layoutY="516.0" text="ref_id" />
+            <Label layoutX="373.0" layoutY="516.0" text="Test name" />
+            <Label layoutX="571.0" layoutY="516.0" text="Test center" />
+            <Label layoutX="755.0" layoutY="516.0" text="Date of test" />
+            <Label layoutX="964.0" layoutY="516.0" text="Date of result" />
+            <Label layoutX="1186.0" layoutY="516.0" text="Report" />
+            <Label layoutX="583.0" layoutY="10.0" text="Prescribed Details">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <Label layoutX="613.0" layoutY="468.0" text="Test Reports">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.Lighting?>
+<?import javafx.scene.effect.Shadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="statics_login_id" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #ffde6b;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.statics.login_registration.Statics_login">
+   <children>
+      <Label layoutX="304.0" layoutY="22.0" style="-fx-font-family: Rubik;" text="Immune History">
+         <font>
+            <Font size="40.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               
+            </Lighting>
+         </effect>
+      </Label>
+      <FontAwesomeIconView fill="#4d4141" glyphName="HOME" layoutX="50.0" layoutY="64.0" onMouseClicked="#statics_login_home_id" size="40" wrappingWidth="40.0" />
+      <JFXTextField fx:id="statics_login_email_id" alignment="CENTER" layoutX="296.0" layoutY="176.0" prefHeight="31.0" prefWidth="303.0" promptText="Email Address" unFocusColor="#4d4d4d82" />
+      <JFXButton fx:id="statics_login_btn" layoutX="391.0" layoutY="366.0" onAction="#statics_login_btn" prefHeight="31.0" prefWidth="103.0" ripplerFill="#f1ff5a82" style="-fx-background-color: #f1ff5a;" text="Login">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </JFXButton>
+      <Button layoutX="412.0" layoutY="430.0" mnemonicParsing="false" onAction="#statics_login_signup_id" style="-fx-background-color: #ffde6b;" text="Sign Up" underline="true" />
+      <JFXPasswordField fx:id="statics_login_pass_id" alignment="CENTER" layoutX="378.0" layoutY="248.0" promptText="Password" />
+      <Label fx:id="lblLoginError" alignment="CENTER" layoutX="327.0" layoutY="320.0" prefHeight="21.0" prefWidth="235.0" textFill="RED" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="HAND" />
+   </cursor>
+</AnchorPane>

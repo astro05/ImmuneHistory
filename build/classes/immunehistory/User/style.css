@@ -1,0 +1,86 @@
+.button
+{
+-fx-background-color :  #EBE8F9;
+
+}
+.button:hover{
+-fx-background-color : #9C9AA6;
+-fx-text-fill : #e7e5e5;
+}
+.button:pressed
+{
+-fx-background-color : #2d0642;
+}
+
+.scroll-pane {
+    -fx-background-color: #02030A;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #10165F;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: black;
+}
+
+.linear_grad{
+    
+     -fx-background-color: linear-gradient(to bottom left,#faffd1,#a1ffce);
+    
+}
+
+.btn_login{
+    
+    -fx-background-color: linear-gradient(to bottom left,#D3CCE3,#E9E4F0);
+}
+.btn_login:hover{
+    -fx-background-color:#431FA0;
+    
+}
+.btn_SignUp{
+    -fx-background-color: linear-gradient(to bottom left, #a1ffce,#faffd1);
+          
+    -fx-border-radius:5;
+    
+}
+.tag-bar {
+     -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-spacing: 3;
+    -fx-padding: 3;
+    -fx-max-height: 30;
+}
+
+.tag-bar .tag {
+    -fx-background-color: lightgreen;
+     -fx-border-radius: 20 20 20 20;
+  -fx-background-radius: 20 20 20 20;
+    -fx-alignment: center;
+    -fx-font: italic 14px "Segoe UI";
+    -fx-font-size: 12;
+}
+
+.tag-bar .tag .button {
+    -fx-shape: "M19,6.41L17.59,5 12,10.59 6.41,5 5,6.41 10.59,12 5,17.59 6.41,19 12,13.41 17.59,19 19,17.59 13.41,12z";
+    -fx-scale-shape: false; 
+    
+}

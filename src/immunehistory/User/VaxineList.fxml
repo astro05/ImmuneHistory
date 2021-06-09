@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="58.0" prefWidth="719.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.User.VaxineListController">
+   <children>
+      <ImageView fitHeight="34.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/icons8_GPS_Antenna_64px_1.png" />
+         </image>
+         <HBox.margin>
+            <Insets left="15.0" />
+         </HBox.margin>
+      </ImageView>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="56.0">
+         <children>
+            <Label fx:id="serial_no" text="01" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="57.0" layoutY="10.0" prefHeight="58.0" prefWidth="71.0">
+         <children>
+            <Label fx:id="vaxine_id" prefHeight="26.0" prefWidth="35.0" text="1005" />
+         </children>
+         <HBox.margin>
+            <Insets left="70.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="58.0" prefWidth="149.0">
+         <children>
+            <Label fx:id="vaxine_name" alignment="CENTER" contentDisplay="CENTER" prefHeight="17.0" prefWidth="137.0" text="Rabbis Vaccine" />
+         </children>
+         <HBox.margin>
+            <Insets left="75.0" />
+         </HBox.margin>
+      </VBox>
+      <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label fx:id="vaxination_date" text="17/09/2020" />
+         </children>
+         <HBox.margin>
+            <Insets left="70.0" />
+         </HBox.margin>
+      </VBox>
+   </children>
+</HBox>

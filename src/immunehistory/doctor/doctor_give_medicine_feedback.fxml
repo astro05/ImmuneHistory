@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorpane" onMouseClicked="#anchorpane_clicked" prefHeight="900.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="immunehistory.doctor.Doctor_give_medicine_feedbackController">
+   <children>
+      <Pane fx:id="pane" layoutX="546.0" layoutY="253.0" onMouseClicked="#pane_clicked">
+         <children>
+            <TextField fx:id="medicine_name" layoutY="17.0" prefHeight="25.0" prefWidth="309.0" />
+            <Label text="Medicine Generic Name" />
+            <TextField fx:id="success_rate" layoutY="145.0" prefHeight="25.0" prefWidth="309.0" />
+            <Label layoutY="128.0" text="Success Rate (%)" />
+            <TextField fx:id="age" layoutY="82.0" prefHeight="25.0" prefWidth="309.0" />
+            <Label layoutY="65.0" text="Age" />
+            <Button layoutX="128.0" layoutY="205.0" mnemonicParsing="false" onMouseClicked="#submit" text="Submit" />
+            <JFXListView fx:id="suggestions" layoutY="42.0" onMouseClicked="#suggestions_selected" prefHeight="168.0" prefWidth="309.0" visible="false" />
+         </children>
+      </Pane>
+      <Button layoutX="680.0" layoutY="495.0" mnemonicParsing="false" onMouseClicked="#back" text="back" />
+      <Label layoutX="579.0" layoutY="168.0" text="Medicine Success Feedback">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
